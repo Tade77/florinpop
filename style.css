@@ -1,0 +1,88 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* body {
+  box-sizing: border-box;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  position: relative;
+  height: 25rem;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: green;
+  position: relative;
+}
+#outer {
+  height: 20rem;
+  width: 20rem;
+  padding: 10px 10px;
+  background-color: blueviolet;
+}
+.value1 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 1.2rem;
+  width: 2rem;
+  background-color: white;
+}
+.value2 {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  height: 1.2rem;
+  width: 2rem;
+  background-color: white;
+}
+.value3 {
+  bottom: 10px;
+  right: 0;
+  position: absolute;
+  height: 1.2rem;
+  width: 2rem;
+  background-color: white;
+}
+.value4 {
+  bottom: 10px;
+  left: 0;
+  position: absolute;
+  height: 1.2rem;
+  width: 2rem;
+  background-color: white;
+}
+.output {
+  margin-top: 2rem;
+}
+#text {
+  text-align: center;
+  height: 3rem;
+  width: 20rem;
+  padding: 0.3rem 100px;
+  background-color: white;
+}
+#btn:hover {
+  background-color: rgb(63, 156, 156);
+  cursor: pointer;
+  color: white;
+}
+.value1,
+.value2,
+.value3,
+.value4 {
+  border: none;
+  outline: none;
+}
