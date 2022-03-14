@@ -15,7 +15,7 @@ body {
 h1 {
   text-align: center;
 }
-.container {
+#container {
   position: relative;
   height: 25rem;
   width: 25rem;
@@ -32,33 +32,33 @@ h1 {
   padding: 10px 10px;
   background-color: blueviolet;
 }
-.value1 {
+#value1 {
   position: absolute;
   top: 10px;
-  left: 0;
+  left: 5px;
   height: 1.2rem;
   width: 2rem;
   background-color: white;
 }
-.value2 {
+#value2 {
   position: absolute;
   top: 10px;
-  right: 0;
+  right: 5px;
   height: 1.2rem;
   width: 2rem;
   background-color: white;
 }
-.value3 {
+#value3 {
   bottom: 10px;
-  right: 0;
+  right: 5px;
   position: absolute;
   height: 1.2rem;
   width: 2rem;
   background-color: white;
 }
-.value4 {
+#value4 {
   bottom: 10px;
-  left: 0;
+  left: 5px;
   position: absolute;
   height: 1.2rem;
   width: 2rem;
@@ -79,10 +79,10 @@ h1 {
   cursor: pointer;
   color: white;
 }
-.value1,
-.value2,
-.value3,
-.value4 {
+#value1,
+#value2,
+#value3,
+#value4 {
   border: none;
   outline: none;
 }
