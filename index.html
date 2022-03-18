@@ -8,8 +8,9 @@
     <title>Border Radius Previewer</title>
   </head>
   <body>
-    <h1>Border Radius Effect</h1>
+    <h1>Border Radius Previewer</h1>
     <div id="container">
+      <div id="modal">Copied!!</div>
       <input type="text" id="value1" />
       <input type="text" id="value2" />
       <input type="text" id="value3" />
@@ -18,7 +19,15 @@
       <div id="outer"></div>
     </div>
     <div class="output">
-      <span id="text">Copy Style</span>
+      <div>
+        <span id="display">
+          border-radius:
+          <span id="prop1">00</span>
+          <span id="prop2">00</span>
+          <span id="prop3">00</span>
+          <span id="prop4">00</span>
+        </span>
+      </div>
       <button id="btn">Copy</button>
     </div>
     <script src="./index.js"></script>
